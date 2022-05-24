@@ -1,0 +1,89 @@
+CSS battle
+87
+84
+82
+81
+99
+94
+63
+44 +
+
+CSS Display
+CSS Flex
+
+
+
+Yeni bir sekme
+- form yapılacak
+- içine input, label, select, textarea.
+
+
+<div id="a"></div>
+<div class="sol_ust"></div>
+<div class="sol_alt"></div>
+<div class="sag_ust"></div>
+<div class="sag_alt"></div>
+<div class="b"></div>
+<style>
+  html{
+    background: #191919;
+	
+}
+  
+  #a{
+    background: #5DBCF9;
+	width: 70px;
+    height: 70px;
+	margin: 114px auto;
+	margin-left: 158;
+  }
+  
+  
+  .sol_ust{
+    background: #5DBCF9;
+    width: 70;
+    margin:-244 auto;
+	margin-left: 97.5;
+	height: 70;
+    border-radius: 50px 50px 0px 50px;
+  }
+  .sol_alt{
+    background: #5DBCF9;
+    width: 70;
+    margin: 294 auto;
+	margin-left: 97.5;
+	height: 70;
+    border-radius: 50px 0px 50px 50px;
+  }
+  .sag_ust{
+    background: #5DBCF9;
+    width: 70;
+    margin: -484 auto;
+	margin-left: 218;
+	height: 70;
+    border-radius: 50px 50px 50px 0px;
+  }
+  .sag_alt{
+    background: #5DBCF9;
+    width: 70;
+    margin: 534 auto;
+	margin-left: 218;
+	height: 70;
+    border-radius: 0px 50px 50px 50px;
+  }
+	.b{
+    background: pink;
+	width: 50px;
+    height: 50px;
+    margin: -650 auto;
+	margin-left: 167;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->

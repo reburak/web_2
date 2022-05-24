@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burak</title>
+    <link rel="icon" type="image/x-icon" href="./img/burak_logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:url('./img/arkaplan.jpeg'); background-repeat: no-repeat; background-size: 100%; background-attachment: fixed; ">
+    <header>
+    <div>
+        <img src="./img/burak_logo.png" width="100" height="100">
+        <h1 style="margin: 0.5%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >  BURAK<span style="margin-left: 40%; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Sepet</span></h1> 
+        <div class="test">
+            <div><a style="font-size: larger; color: black;" href="anasayfa.html">Anasayfa </a></div>
+            <div><a style="font-size: larger; color: black;" href="hakkinda.html"> Hakkında </a></div>
+            <div><a style="font-size: larger; color: black;" href="iletisim.html"> İletişim </a></div>
+            <div><a style="font-size: larger; color: black;" href="urunler.html">Ürünler </a></div>
+            <div><a style="font-size: larger; color: black;" href="sepet.html">Sepet </a></div>
+        </div>
+        
+    </header>
+    <div class="alt_bolum">
+        
+        <h1 style="text-align: center; color:black; border: 2px solid skyblue;" >Kişisel bilgiler</h1>
+        <p style="text-align:center; font-size:x-large; opacity: 88%; color: red;"><ins>Lütfen bütün alanları doldurunuz..</ins></p>
+        <div class="kisisel">
+            
+            <div id="mail">
+                <label for="mail">E-Mail Adresi</label>
+                <input type="email" id="mail_txt" name="mail" placeholder="E-mail giriniz."><br>
+            </div>
+            <div id="sifre">
+                <label for="sifre">Hesap Şifresi</label>
+                <input type="password" id="sifre_txt" name="sifre"><br>
+            </div>
+            <div id="foto">
+                <label for="foto">Profil Fotoğrafı</label>
+                <input type="file" id="foto_txt" name="foto"><br>
+            </div>
+            <div id="renk">
+                <label for="renk">Profil Rengi</label>
+                <input type="color"><br>
+            </div>
+            <div id="ad_bolum">
+                <label for="ad">Ad Soyad</label>
+                <input type="text" id="ad_txt" name="ad"><br>
+            </div>
+            <div id="yas">
+                <label for="yas">Yaş</label>
+                <input type="number" id="yas_txt" name="yas"><br>
+            </div>
+            <div id="tc_bolum">
+                <label for="tc">T.C. No</label>
+                <input type="number" id="tc_txt" name="tc"><br>
+            </div>
+            <div id="Cinsiyet_bolum">
+                <label for="cinsiyet">Cinsiyet</label>
+                <select name="cinsiyetler" id="cinsiyetler_txt">
+                    <option value="ERKEK">Erkek</option>
+                    <option value="KADIN">Kadın</option>
+                </select><br>
+            </div>
+            <div id="dogum_yeri">
+                <label for="dy">Doğum Yeri</label>
+                <select name="sehir" id="sehir_txt">
+                    <option value="ANKARA">Ankara</option>
+                    <option value="ISTANBUL">İstanbul</option>
+                    <option value="ANTALYA">Antalya</option>
+                    <option value="IZMIR">İzmir</option>
+                    <option value="BURSA">BURSA</option>
+                    <option value="KASTAMONU">KASTAMONU</option>
+                </select><br>
+            </div>
+            <div id="kan_grubu">
+                <label for="kan_grubu">Kan Grubu</label>
+                <select name="kan_grubu" id="kan_grubu_txt">
+                    <option value="A_POSITIVE">A Rh+</option>
+                    <option value="B_POSITIVE">B Rh+</option>
+                    <option value="0_POSITIVE">0 Rh+</option>
+                    <option value="0_NEGATIVE">0 Rh-</option>
+                    <option value="A_NEGATIVE">A Rh-</option>
+                    <option value="B_NEGATIVE">B Rh-</option>
+                    <option value="AB_POSITIVE">AB Rh+</option>
+                    <option value="AB_NEGATIVE">AB Rh-</option>
+                </select><br>
+            </div>
+            <div id="okul">
+                <label for="okul">Mezun Olduğu Okul</label>
+                <input type="text" id="okul_txt" name="okul"><br>
+            </div>
+            <div id="m_tarih">
+                <label for="m_tarih">Mezuniyet Tarihi</label>
+                <input type="date" value="Tarih"><br>
+            </div>
+            <div id="cerezler">
+                <label for="cerezler">Çerezleri onaylayın</label>
+                <input type="checkbox"><br>
+            </div>
+            <div id="onayla">
+                <label for="onayla">Siparişi gönder</label>
+                <input type="submit"><br>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
